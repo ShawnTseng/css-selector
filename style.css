@@ -26,3 +26,16 @@ p {
     text-decoration: none;
     display: list-item;
 }
+
+.button {
+    display: inline-block;
+    border: 1px solid #aaa;
+    background-color: #eee;
+    padding: 0 1em;
+    line-height: 1.5em;
+}
+
+a.button {
+    background-color: transparent;
+    border-color: transparent;
+}
