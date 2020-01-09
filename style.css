@@ -9,3 +9,20 @@ p {
 .just-read-my-name {
     color: gold;
 }
+
+#main {
+    margin: 15px;
+    font-size: 2em;
+    color: green;
+}
+
+.task-list, .scrum-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.task-list-item, .scrum-task-list-item {
+    color: #666;
+    text-decoration: none;
+    display: list-item;
+}
