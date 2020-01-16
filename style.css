@@ -21,7 +21,7 @@ p {
     padding: 10px;
 }
 
-.task-list-item, .scrum-task-list-item {
+.task-list a, .scrum-task-list-item, a {
     color: #666;
     text-decoration: none;
     display: list-item;
