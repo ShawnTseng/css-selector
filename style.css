@@ -55,3 +55,40 @@ li {
 li+li {
     border-left: 1px solid #aaa;
 }
+
+.color {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background: #ccc;
+}
+
+.R {
+    background-color: red;
+}
+
+.G {
+    background-color: green;
+}
+
+.B {
+    background-color: blue;
+}
+
+.R:hover~.color-box {
+    background-color: red;
+}
+
+.G:hover~.color-box {
+    background-color: green;
+}
+
+.B:hover~.color-box {
+    background-color: blue;
+}
