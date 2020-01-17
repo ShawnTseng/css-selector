@@ -43,3 +43,11 @@ a.button {
 .my-header+p {
     font-size: 20px;
 }
+
+li {
+    display: inline-block;
+}
+
+li+li {
+    border-left: 1px solid #aaa;
+}
